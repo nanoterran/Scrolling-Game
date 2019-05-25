@@ -49,4 +49,12 @@ describe("player", function()
 
     assert.equal(-250, player.get_position().x)
   end)
+
+  it('should be able to jump', function()
+    local player = Player({
+      x_position = 0,
+      y_position = 0,
+      acceleration = 250
+    })
+  end)
 end)
