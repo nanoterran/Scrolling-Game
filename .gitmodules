@@ -1,3 +1,0 @@
-[submodule "libs/bump.lua"]
-	path = libs/bump.lua
-	url = https://github.com/kikito/bump.lua
